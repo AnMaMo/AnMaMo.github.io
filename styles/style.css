@@ -26,9 +26,7 @@ body{
 
 .title {
     text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    vertical-align: center;
+    font-size: 200%;
 }
 
 .scrollButton {
