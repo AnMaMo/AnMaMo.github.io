@@ -1,6 +1,6 @@
 :root {
     --bgColor: #f5f5f5;
-    --white: #ebebeb;
+    --footerBG: #202020;
 }
 
 /* General styles */
@@ -46,7 +46,7 @@ body{
 }
 
 .scrollImg {
-    width: 10%;
+    width: 5%;
 }
 
 
@@ -69,7 +69,6 @@ body{
     max-width: 45vw;
     text-align: center;
     margin: auto auto 2vh auto;
-    /*borde casi invisible*/
 }
 
 .artText {
@@ -87,6 +86,19 @@ body{
     color:#000000;
 }
 
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: var(--footerBG) ;
+}
+
+.footer .footerText {
+    padding: 2vh;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
 
 
 
