@@ -1,5 +1,5 @@
 :root {
-    --bgColor: #1c1c1c;
+    --bgColor: #f5f5f5;
     --white: #ebebeb;
 }
 
@@ -66,11 +66,10 @@ body{
 
 .article{
     padding: 2vh;
-    border: #333 solid 1px;
     max-width: 45vw;
     text-align: center;
     margin: auto auto 2vh auto;
-    
+    /*borde casi invisible*/
 }
 
 .artText {
@@ -79,12 +78,13 @@ body{
 
 .artPhoto {
     margin: auto auto auto auto;
-    width: 50%;
+    width: 100%;
 }
 
-.artText p , .artPhoto img {
+.artText p , .artPhoto img, .artText h1 {
     margin: auto auto auto auto;
-    width: 70%;
+    width: 100%;
+    color:#000000;
 }
 
 
