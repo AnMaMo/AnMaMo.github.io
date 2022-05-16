@@ -3,7 +3,7 @@
     --footerBG: #202020;
 }
 
-/* General styles */
+/* #region */
 body{
     width: 100%;
     height: 100%;
@@ -57,6 +57,7 @@ body{
     background-color: var(--bgColor);
 }
 
+
 /* Article Styles (Flexbox) */
 .articles{
     padding-top: 2vh;
@@ -65,10 +66,14 @@ body{
 }
 
 .article{
+    justify-content: top;
+    vertical-align: top;
+
     padding: 2vh;
     max-width: 45vw;
     text-align: center;
-    margin: auto auto 2vh auto;
+    margin: auto auto auto auto;
+    vertical-align: top;
 }
 
 .artText {
@@ -85,6 +90,38 @@ body{
     width: 100%;
     color:#000000;
 }
+
+/* Article Links FlexBox */
+.ArticleLinks {
+    display: flex;
+    padding-top: 2vh;
+    flex-wrap: wrap;
+
+}
+
+.ArticleLinks a{
+    max-width: 45vw;
+    margin: auto;
+    text-decoration: none;
+}
+
+.ArticleLinks a p{
+    font-weight: bold;
+    text-align: center;
+    padding: 1.5vh;
+    margin: auto auto auto auto;
+    background-color: #1c1c1c;
+    color: white;
+    border-radius: 5px;
+}
+
+.ArticleLinks a p:hover{
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    transition-duration: 500ms;
+}
+
+
 
 .footer {
     width: 100%;
