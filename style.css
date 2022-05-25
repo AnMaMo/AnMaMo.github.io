@@ -57,6 +57,18 @@ body{
     background-color: var(--bgColor);
 }
 
+.conExp{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.conExp img{
+    width: 75%;
+    height: auto;
+    padding-top: 2vh;
+
+}
 
 /* Article Styles (Flexbox) */
 .articles{
