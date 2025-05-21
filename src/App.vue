@@ -17,16 +17,14 @@ const scrollTo = (id) => {
       <h1 id="title">André Martínez Moreno</h1>
       <h2 id="subtitle">Desarrollador de Software & Técnico de Sistemas</h2>
 
-      <!-- <h2 style="margin-top: 15px; background-color: red;">PORTAFOLIO EN CONSTRUCCIÓN</h2> -->
-
       <!-- Botonera principal -->
       <div style="display: flex; flex-direction: row; margin-top: 10px;">
-<PrimaryButton title="Contactar" div="Contacto" @scrollTo="scrollTo" />
-<PrimaryButton title="Ver Proyectos" div="Proyectos" @scrollTo="scrollTo" />
+        <PrimaryButton title="Contactar" div="Contacto" @scrollTo="scrollTo" />
+        <PrimaryButton title="Ver Proyectos" div="Proyectos" @scrollTo="scrollTo" />
       </div>
     </div>
     <BotonFlecha @scrollTo="scrollTo" />
-    
+
   </div>
 
   <!-- Div Presentacion -->
