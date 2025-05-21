@@ -1,30 +1,55 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <!--   <NavBar msg="André " /> -->
+
+  <!-- Banner -->
+  <div id="banner">
+
+    <div id="banner-content">
+      <h1 id="title">André Martínez Moreno</h1>
+      <h2 id="subtitle">Desarrollador de Software & Técnico de Sistemas</h2>
+
+      <h2 style="margin-top: 15px; background-color: red;">PORTAFOLIO EN CONSTRUCCIÓN</h2>
+
+    </div>
+
+
+
   </div>
-  <HelloWorld msg="Vite + Vue" />
+
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+#banner {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+#banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+#title {
+  height: fit-content;
+  text-align: center;
+  font-size: 5em;
+  vertical-align: top;
+}
+
+#subtitle {
+  font-size: 1.5em;
+  color: #666;
+  text-align: center;
+  vertical-align: top;
+  font-family: inter;
 }
 </style>
